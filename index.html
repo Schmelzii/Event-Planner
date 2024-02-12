@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Planner</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Verweis auf die CSS-Datei für das Styling -->
+</head>
+<body>
+    <div class="container">
+        <h1><b><i>Event PLanner</i></b></h1>
+        <!-- Formular zum Hinzufügen von Veranstaltungen -->
+        <div id="event-form">
+            <input type="text" id="title" placeholder="Title">
+            <input type="date" id="date">
+            <input type="time" id="time">
+            <input type="text" id="location" placeholder="Location">
+            <textarea id="description" placeholder="Description"></textarea>
+            <label for="public">Public Event</label>
+            <input type="checkbox" id="public">
+            <button onclick="addEvent()">Add Event</button> <!-- Button zum Hinzufügen einer Veranstaltung -->
+        </div>
+        <!-- Bereich zur Anzeige des Kalenders -->
+        <div id="calendar"></div>
+    </div>
+    <script src="script.js"></script> <!-- Verweis auf die JavaScript-Datei für die Logik -->
+</body>
+</html>

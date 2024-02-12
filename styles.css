@@ -1,0 +1,28 @@
+.container {
+    max-width: 600px; /* Legt die maximale Breite des Hauptcontainers fest */
+    margin: 0 auto; /* Zentriert den Container horizontal auf der Seite */
+    padding: 20px; /* Innenabstand des Containers */
+}
+
+#event-form {
+    margin-bottom: 20px; /* Unteren Abstand zum Formularbereich einstellen */
+}
+
+input, textarea {
+    display: block; /* Elemente als Blockelemente anzeigen */
+    margin-bottom: 10px; /* Unteren Abstand zwischen den Eingabefeldern einstellen */
+}
+
+button {
+    display: block; /* Button als Blockelement anzeigen */
+    background-color: #007bff; /* Hintergrundfarbe des Buttons */
+    color: white; /* Textfarbe des Buttons */
+    border: none; /* Keine Rahmen um den Button */
+    padding: 10px 20px; /* Innenabstand des Buttons */
+    cursor: pointer; /* Zeiger anzeigen, um anzuzeigen, dass der Button anklickbar ist */
+}
+
+#calendar {
+    border: 1px solid #ccc; /* Rahmen um den Kalenderbereich */
+    padding: 10px; /* Innenabstand des Kalenderbereichs */
+}
